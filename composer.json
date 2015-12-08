@@ -1,0 +1,17 @@
+{
+    "name": "arena/api-sdk",
+    "authors": [
+        {
+            "name": "Kamil Bednarek",
+            "email": "kamil@technopark2.pl"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "Arena\\":        "src/"
+        }
+    }
+}
